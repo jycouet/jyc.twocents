@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://jyc.twocents.netlify.app';
+export const SITE_URL = 'https://jyctwocents.netlify.app';
 export const APPROVED_POSTERS_GH_USERNAME = ['jycouet'];
 export const GH_USER_REPO = 'jycouet/swyxkit'; // used for pulling github issues and offering comments
 export const SITE_TITLE = 'JYC TwoCents';
