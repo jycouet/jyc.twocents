@@ -11,7 +11,6 @@
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
 
-
 	/** @type {import('./$types').PageData} */
 	export let data;
 	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
@@ -54,10 +53,9 @@
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				An opinionated blog starter for <span class="font-semibold"
 					>SvelteKit + Tailwind + Netlify/Vercel.</span
-				> Updated for
-				<a href="https://github.com/sveltejs/kit/"
-					>SvelteKit 1.0</a
-				>!
+				>
+				Updated for
+				<a href="https://github.com/sveltejs/kit/">SvelteKit 1.0</a>!
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href={REPO_URL}>View source and feature list here!</a>
@@ -85,5 +83,5 @@
 
 	<LatestPosts {items} />
 
-	<Newsletter />
+	<!-- <Newsletter /> -->
 </div>

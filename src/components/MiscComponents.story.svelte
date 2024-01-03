@@ -8,7 +8,6 @@
 </script>
 
 <Hst.Story title="Misc Components" layout={{ type: 'grid', width: '100%' }}>
-
 	<!-- <Hst.Variant title="Nav">
 		<Nav />
 	</Hst.Variant> -->
@@ -17,8 +16,7 @@
 			This is swyx's preferred starter for Svelte projects!
 		</IndexCard>
 	</Hst.Variant>
-	<Hst.Variant title="Newsletter">
+	<!-- <Hst.Variant title="Newsletter">
 		<Newsletter />
-	</Hst.Variant>
-
+	</Hst.Variant> -->
 </Hst.Story>
